@@ -1,0 +1,24 @@
+.my-work {
+  margin: 80px 170px;
+}
+.work-title {
+  position: relative;
+}
+.work-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.work-title h1 {
+  padding: 0px 30px;
+  font-size: 60px;
+  font-weight: 600;
+}
+.work-title img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  width: 190px;
+}
